@@ -3556,12 +3556,12 @@
     "seo": {
       "type": "website",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/a5d890ba-e5b8-471e-8b77-7412c1d4fa56",
-      "title": "Storefront",
       "jsonLDs": [],
       "noIndexing": false,
-      "description": "Improve your page performance with deco.cx",
-      "titleTemplate": "%s | deco.cx",
-      "descriptionTemplate": "%s | Deco.cx"
+      "description": "Conexões Culturais é uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas.",
+      "descriptionTemplate": "%s | Deco.cx",
+      "title": "Conexões Culturais",
+      "titleTemplate": "%s"
     },
     "theme": {
       "__resolveType": "Fashion theme"
@@ -3639,5 +3639,31 @@
   },
   "weather": {
     "__resolveType": "decohub/apps/weather.ts"
+  },
+  "pages-Quem%20Somos-727877": {
+    "name": "Quem Somos",
+    "path": "/quem-somos",
+    "sections": [
+      {
+        "__resolveType": "site/sections/Content/Hero.tsx",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7752/a13b544b-9484-4b10-b59f-14adac12e993",
+        "title": "<p>Conexões Culturais</p>",
+        "description": "uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas.",
+        "placement": "right",
+        "cta": [
+          {
+            "variant": "Normal",
+            "href": "https://commercegrowth.ag/",
+            "text": "conheça"
+          }
+        ]
+      },
+      {
+        "__resolveType": "site/sections/Content/RichText.tsx",
+        "text": "<p>Produtos e Experiências:</p><p><br data-mce-bogus=\"1\"></p><ul><li>- Culinária Internacional: Uma seção dedicada a ingredientes autênticos, especiarias e receitas tradicionais de diversas culinárias ao redor do mundo. Os clientes podem comprar kits de ingredientes para preparar pratos típicos de diferentes países e também participar de workshops de culinária ao vivo conduzidos por chefs locais.<br data-mce-bogus=\"1\"></li><li><br data-mce-bogus=\"1\"></li><li>&nbsp;- Artes e Artesanato: Uma coleção de artesanatos únicos, obras de arte e decorações inspiradas em diversas culturas. Isso inclui esculturas, máscaras tribais, pinturas, tecelagens, cerâmicas e outros itens feitos à mão por artistas locais de diferentes partes do mundo.</li><li><br data-mce-bogus=\"1\"></li><li>- Moda e Acessórios: Uma variedade de roupas, acessórios e joias inspiradas em estilos tradicionais de diferentes culturas. Isso inclui roupas étnicas, lenços bordados à mão, bolsas de couro artesanais e muito mais, tudo projetado por designers locais que valorizam técnicas de fabricação tradicionais.</li></ul><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p>",
+        "containerWidth": 850
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
